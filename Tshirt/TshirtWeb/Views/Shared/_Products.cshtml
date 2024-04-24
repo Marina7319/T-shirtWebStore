@@ -1,0 +1,23 @@
+﻿@model Product
+
+<div class="col">
+    <div class="card h-100">
+        <div class="text-center">
+            <div>
+                <img class="card-img-top" src="@Model.ImageUrl" />
+                <div class="card-body">
+                    <div>
+                        <h5 lass="card-title">@Model.TshirtName</h5>
+                        <p class="card-text">in <b>@Model.Color</b></p>
+                    </div>
+                    <div>
+                        <p class="card-text"> Price: <span>@Model.ListPrice.ToString("c")</span></p>
+                    </div>
+                </div>
+                <div>
+                    <a asp-action="Details" asp-route-productId="@Model.Id" class="btn btn-outline-primary">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

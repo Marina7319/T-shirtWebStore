@@ -1,0 +1,77 @@
+﻿@using T_shirt.Models.ViewModels
+@model List<UserViewModel>
+
+
+   <div style="width: 48rem;">
+   <div>
+      <div class="text-center">
+      </div>
+   </div>
+</div>
+<div>
+   <div>
+      <div class="text-center">
+         <h2 class="display-6">
+            Users List
+         </h2>
+      </div>
+      <div>
+      </div>
+   </div>
+   <table class="table table-striped">
+      <thead class="table-light">
+         <tr>
+            <th>
+               User Name
+            </th>
+              <th>
+                Phone Number
+            </th>
+              <th>
+                City
+            </th>
+              <th>
+                Postal Code
+            </th>
+              <th>
+                State
+            </th>
+              <th>
+                Street Addresse
+            </th>
+              <th>
+                Name
+            </th>
+         </tr>
+      </thead>
+      <tbody>
+         @foreach(var obj in Model.OrderBy(u=>u.UserName))
+         {
+         <tr>
+            <td>
+               @obj.UserName
+            </td>
+            <td>
+                @obj.PhoneNumber
+            </td>
+            <td>
+                @obj.City
+            </td>
+            <td>
+                @obj.PostalCode
+            </td>
+            <td>
+                @obj.State
+            </td>
+            <td>
+                @obj.StreetAddress
+            </td>
+            
+             <td>
+                @obj.Name
+            </td>                  
+         </tr>
+         } 
+      </tbody>
+   </table>
+</div>

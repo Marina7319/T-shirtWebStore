@@ -1,0 +1,48 @@
+﻿@model Category
+
+<div>
+   <div>
+      <div>
+         <div class="text-center">
+            <h2 class="display-5">Delete T-shirt Category</h2>
+         </div>
+      </div>
+   </div>
+   <div>
+      <form method="post">
+         <input asp-formaction="Id" hidden />
+         <div>
+            <div class="text-center">
+               <h3 class="display-6">T-shirt Category</h3>
+            </div>
+            <div>    
+               <label asp-for="Name"></label>
+               <input asp-for="Name" type="text" class="form-control" />
+               <span asp-validation-for="Name"></span>
+            </div>
+            <div>  
+               <label asp-for="DisplayOrder"></label>
+               <input asp-for="DisplayOrder"  disabled  type="text" class="form-control" />
+            </div>
+            <div role="group">
+               <div>
+                  <button type="submit" class="btn btn-danger form-control">Delete</button>
+               </div>
+               <div>
+                  <a asp-controller="Category" asp-action="Index" class="btn btn-success form-control">
+                  Back to List
+                  </a>
+               </div>
+            </div>
+         </div>
+      </form>
+   </div>
+</div>
+
+
+@section Scripts
+{
+@{
+<partial name="_ValidationScriptsPartial" />
+}
+}

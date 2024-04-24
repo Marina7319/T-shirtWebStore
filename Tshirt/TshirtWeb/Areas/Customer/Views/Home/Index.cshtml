@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Product>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach(Product product in Model)
+    {
+        @Html.Partial("_Products", product);
+    } 
+</div>

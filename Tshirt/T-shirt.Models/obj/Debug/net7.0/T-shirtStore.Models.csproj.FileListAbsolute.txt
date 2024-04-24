@@ -1,0 +1,12 @@
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\bin\Debug\net7.0\T-shirtStore.Models.deps.json
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\bin\Debug\net7.0\T-shirtStore.Models.dll
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\bin\Debug\net7.0\T-shirtStore.Models.pdb
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\obj\Debug\net7.0\T-shirtStore.Models.csproj.AssemblyReference.cache
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\obj\Debug\net7.0\T-shirtStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\obj\Debug\net7.0\T-shirtStore.Models.AssemblyInfoInputs.cache
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\obj\Debug\net7.0\T-shirtStore.Models.AssemblyInfo.cs
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\obj\Debug\net7.0\T-shirtStore.Models.csproj.CoreCompileInputs.cache
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\obj\Debug\net7.0\T-shirtStore.Models.dll
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\obj\Debug\net7.0\refint\T-shirtStore.Models.dll
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\obj\Debug\net7.0\T-shirtStore.Models.pdb
+D:\C#WEB\ASP.NETAdvancedJune2023\T-ShirtWeb\TShirtWeb\Tshirt\T-shirt.Models\obj\Debug\net7.0\ref\T-shirtStore.Models.dll

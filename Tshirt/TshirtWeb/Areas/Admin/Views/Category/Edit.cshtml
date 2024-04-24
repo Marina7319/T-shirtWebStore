@@ -1,0 +1,42 @@
+﻿@model Category
+<div>
+   <div>
+      <div class="row">
+         <div class="text-center">
+            <h2 class="display-5">T-shirt Category</h2>
+         </div>
+      </div>
+   </div>
+   <div>
+      <form method="post">
+         <input asp-formaction="Id" hidden />
+         <div>
+            <div>   
+               <label asp-for="Name"></label>
+               <input asp-for="Name" type="text" class="form-control"  />
+               <span asp-validation-for="Name" ></span>
+            </div>
+            <div>   
+               <label asp-for="DisplayOrder"></label>
+               <input asp-for="DisplayOrder" type="text"  class="form-control" />
+               <span asp-validation-for="DisplayOrder"></span>
+            </div>
+            <div role="group">
+               <div>
+                  <button type="submit"  class="btn btn-primary form-control">Update</button>
+               </div>
+               <div>
+                  <a asp-controller="Category" asp-action="Index"  class="btn btn-success form-control">Back To List</a>
+               </div>
+            </div>
+         </div>
+      </form>
+   </div>
+</div>
+
+@section Scripts
+{
+@{
+<partial name="_ValidationScriptsPartial" />
+}
+}

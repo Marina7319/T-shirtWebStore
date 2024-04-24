@@ -1,0 +1,87 @@
+﻿@model ProductViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var title = "Create Product";
+}
+
+<div>
+<div class="row">
+   <div class="text-center">
+      @if(Model.Product.Id != 0)
+      {
+      title = "Edit Product";
+      <input asp-for="Product.Id" hidden />
+      }
+      <div>
+         <h2 class="display-5">@(Model.Product.Id!=0?"Update":"Create") T-shirt</h2>
+      </div>
+   </div>
+</div>
+<div>
+   <form method="post" enctype="multipart/form-data">
+      <input asp-for="Product.Id" hidden />
+      <input asp-for="Product.ImageUrl" hidden />
+         <div>   
+            <label  asp-for="Product.TshirtName"></label>
+            <input asp-for="Product.TshirtName" type="text" class="form-control" ></input>
+            <span asp-validation-for="Product.TshirtName"></span>
+         </div>
+         <div > 
+            <label asp-for="Product.Description"></label>
+            <textarea asp-for="Product.Description" type="text" class="form-control" ></textarea>
+            <span asp-validation-for="Product.Description" ></span>
+         </div>
+         <div> 
+            <label asp-for="Product.Size"></label>
+            <input asp-for="Product.Size" type="text" class="form-control" />
+            <span asp-validation-for="Product.Size" ></span>
+         </div>
+         <div> 
+            <label asp-for="Product.Color" ></label>
+            <input asp-for="Product.Color" type="text" class="form-control" />
+            <span asp-validation-for="Product.Color" ></span>
+         </div>
+         <div > 
+            <label asp-for="Product.ListPrice" ></label>
+            <input asp-for="Product.ListPrice" type="text" class="form-control" />
+            <span asp-validation-for="Product.ListPrice" ></span>
+         </div>
+         <div>
+            <label asp-for="Product.CategoryId">Category</label> <br />
+            <select asp-for="@Model.Product.CategoryId" asp-items="@Model.CategoryList" class="btn btn-secondary dropdown-toggle" >
+               <option disabled selected class="dropdown-menu">--Selected Category--</option>
+            </select>
+            <span asp-validation-for="Product.CategoryId"></span>
+         </div>
+         <div> 
+            <label asp-for="Product.ImageUrl" ></label>
+            <input  type="file" name ="file" class="form-control" />        
+         </div>
+         @if (Model.Product.Id != 0)
+         {
+         <partial name="_EditAndBackToListButton" model="Model.Product.Id" />
+         }
+         else
+         {
+         <partial name="_CreateAndBackToListButton" />
+         }
+   </form>
+   </div>
+</div>
+
+
+
+@section Scripts
+{
+      <script>
+    tinymce.init({
+      selector: 'textarea',
+      plugins: 'anchor autolink charmap codesample emoticons lists table visualblocks wordcount',
+      toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | align lineheight | checklist numlist bullist indent outdent',
+    });
+  </script>
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
