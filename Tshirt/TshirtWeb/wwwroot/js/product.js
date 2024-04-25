@@ -9,12 +9,12 @@ function loadDataTable() {
     dataTable = $('#tableData').DataTable({
         "ajax": { url: '/admin/product/getall'},
             "columns": [
-                { data: 'tshirtName', "width": "25%" },
+                { data: 'tshirtName', "width": "35%" },
                 { data: 'size', "width": "15%" },
                 { data: 'color', "width":"10%" },
                 { data: 'listPrice', "width": "10%" },
                // { data: 'description', "width": "20%" },
-                { data: 'category.name', "width": "10%" },
+                { data: 'category.name', "width": "20%" },
                 {
                     data: 'id',
                     "render": function (data) {

@@ -5,6 +5,7 @@
    <div style="width: 48rem;">
    <div>
       <div class="text-center">
+          <h2>Users</h2>
       </div>
    </div>
 </div>
@@ -25,53 +26,32 @@
                User Name
             </th>
               <th>
-                Phone Number
+                Phone
             </th>
               <th>
                 City
             </th>
               <th>
-                Postal Code
+                Zip
             </th>
               <th>
                 State
             </th>
               <th>
-                Street Addresse
+                Addresse
             </th>
               <th>
                 Name
             </th>
+            <th></th>
          </tr>
       </thead>
-      <tbody>
-         @foreach(var obj in Model.OrderBy(u=>u.UserName))
+        <tbody class="table-light">
+         @foreach(UserViewModel applicationUser in Model.OrderBy(u=>u.UserName))
          {
-         <tr>
-            <td>
-               @obj.UserName
-            </td>
-            <td>
-                @obj.PhoneNumber
-            </td>
-            <td>
-                @obj.City
-            </td>
-            <td>
-                @obj.PostalCode
-            </td>
-            <td>
-                @obj.State
-            </td>
-            <td>
-                @obj.StreetAddress
-            </td>
-            
-             <td>
-                @obj.Name
-            </td>                  
-         </tr>
-         } 
+                @Html.Partial("_Users", applicationUser);
+
+          } 
       </tbody>
    </table>
 </div>

@@ -34,8 +34,8 @@
             _unitOfWork = db;
             _webHostEnvironment = webHostEnvironment;
 
-        }
 
+        }
 
         public IActionResult Index() // Index()
         {

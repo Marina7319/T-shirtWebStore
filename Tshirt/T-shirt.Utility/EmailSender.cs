@@ -1,7 +1,11 @@
-﻿namespace T_shirt.Utility
+﻿
+
+using Microsoft.AspNetCore.Identity.UI.Services;
+
+namespace T_shirt.Utility
 {
 
-    using Microsoft.AspNetCore.Identity.UI.Services;
+   
 
     public class EmailSender : IEmailSender
     {

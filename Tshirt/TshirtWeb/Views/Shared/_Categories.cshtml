@@ -1,0 +1,20 @@
+﻿@model Category
+
+<tr>
+    <td>
+        @Model.Name
+    </td>
+    <td>
+        @Model.DisplayOrder
+    </td>
+    <td>
+        <div class="btn-group" role="group">
+            <a asp-controller="Category" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-outline-primary">
+                <i class="bi bi-pencil"></i> Edit
+            </a>
+            <a asp-controller="Category" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-outline-danger">
+                <i class="bi bi-trash-fill"></i> Delete
+            </a>
+        </div>
+    </td>
+</tr>

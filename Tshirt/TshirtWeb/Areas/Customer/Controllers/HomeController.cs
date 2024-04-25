@@ -28,14 +28,18 @@
             _unitOfWork = unitOfWork;
        
         }
+
+        public IActionResult Details(int id)
+        {
+            Product item = _unitOfWork.Product.Get(x => x.Id == id, "Category");
+            return View(item);
+        }
     
 
         public IActionResult Index()
         {
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category");
-            return View(productList);
-           
-
+            return View(productList);     
         }
 
      

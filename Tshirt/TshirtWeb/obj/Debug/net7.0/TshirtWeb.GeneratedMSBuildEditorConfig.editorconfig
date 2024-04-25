@@ -232,6 +232,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\#WEB/ASP.NETAdvancedJune2023/T-ShirtWeb/T-shirtWebStore/Tshirt/TshirtWeb/Views/Shared/_Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#WEB/ASP.NETAdvancedJune2023/T-ShirtWeb/T-shirtWebStore/Tshirt/TshirtWeb/Views/Shared/_CreateAndBackToListButton.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVBbmRCYWNrVG9MaXN0QnV0dG9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -250,6 +254,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/C\#WEB/ASP.NETAdvancedJune2023/T-ShirtWeb/T-shirtWebStore/Tshirt/TshirtWeb/Views/Shared/_Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#WEB/ASP.NETAdvancedJune2023/T-ShirtWeb/T-shirtWebStore/Tshirt/TshirtWeb/Views/Shared/_Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2Vycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#WEB/ASP.NETAdvancedJune2023/T-ShirtWeb/T-shirtWebStore/Tshirt/TshirtWeb/Views/Shared/_ValidationScriptsPartial.cshtml]

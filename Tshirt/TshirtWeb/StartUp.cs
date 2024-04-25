@@ -11,11 +11,26 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
+
 builder.Services.AddDbContext<TshirtStoreDbContext>(options =>
       options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+//builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<TshirtStoreDbContext>()
+//.AddDefaultTokenProviders();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+{
+       options.User.RequireUniqueEmail = true;
+       options.Password.RequireDigit = true;
+       options.Password.RequireLowercase = true;
+      options.Password.RequireUppercase = true;
+     options.Password.RequireNonAlphanumeric = true;
+     options.Password.RequiredLength = 12;
+    options.SignIn.RequireConfirmedEmail = false;
+})
+    .AddEntityFrameworkStores<TshirtStoreDbContext>()
+   .AddDefaultTokenProviders();
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<TshirtStoreDbContext>().AddDefaultTokenProviders();
+
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = $"/Identity/Account/Login";
@@ -47,7 +62,7 @@ builder.Services.AddSession();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IEmailSender, EmailSender>();
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
@@ -76,6 +91,8 @@ app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
+app.MapControllerRoute(name:"categoryFilter",
+    pattern: "List/{action}/{category?}", defaults: new {Controller = "List", action="List"});
 
 app.Run();
 
