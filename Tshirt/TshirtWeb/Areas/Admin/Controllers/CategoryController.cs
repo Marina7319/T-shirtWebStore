@@ -17,12 +17,12 @@
     public class CategoryController : Controller
     {
 
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _UOF;
 
-        public CategoryController(IUnitOfWork db)
+        public CategoryController(IUnitOfWork UOF)
         {
 
-            _unitOfWork = db;
+            _UOF = UOF;
 
         }
 
@@ -30,7 +30,7 @@
         public IActionResult Index()
         {
 
-            List<Category> objCategoryList = _unitOfWork.Category.GetAll().ToList();
+            List<Category> objCategoryList = _UOF.Category.GetAll().ToList();
 
             return View(objCategoryList);
         }
@@ -58,8 +58,8 @@
             if (ModelState.IsValid)
             {
 
-                _unitOfWork.Category.Add(obj);
-                _unitOfWork.Save();
+                _UOF.Category.Add(obj);
+                _UOF.Save();
                 TempData["success"] = "Category created succeddsully";
                 return RedirectToAction("Index");
 
@@ -76,7 +76,7 @@
                 return NotFound();
             }
 
-            Category? categoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
+            Category? categoryFromDb = _UOF.Category.Get(u => u.Id == id);
 
             if (categoryFromDb == null)
             {
@@ -97,8 +97,8 @@
 
             if (ModelState.IsValid)
             {
-                _unitOfWork.Category.Update(obj);
-                _unitOfWork.Save();
+                _UOF.Category.Update(obj);
+                _UOF.Save();
                 TempData["success"] = "Category edited succeddsully";
                 return RedirectToAction("Index");
             }
@@ -117,7 +117,7 @@
                 return NotFound();
             }
 
-            Category? categoryFromDb = _unitOfWork.Category.Get(u => u.Id == id);
+            Category? categoryFromDb = _UOF.Category.Get(u => u.Id == id);
 
             if (categoryFromDb == null)
             {
@@ -131,15 +131,15 @@
 
         public IActionResult DeletePOST(int? id)
         {
-            Category? obj = _unitOfWork.Category.Get(u => u.Id == id);
+            Category? obj = _UOF.Category.Get(u => u.Id == id);
 
             if (obj == null)
             {
                 return NotFound();
             }
 
-            _unitOfWork.Category.Remove(obj);
-            _unitOfWork.Save();
+            _UOF.Category.Remove(obj);
+            _UOF.Save();
             TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index");
 

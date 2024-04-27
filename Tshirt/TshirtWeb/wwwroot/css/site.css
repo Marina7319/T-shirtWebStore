@@ -31,3 +31,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 550px;
+    }
+        .table table-striped .table-light {
+                       width: 450px;
+                   }
+    #tableData {
+        width: 450px;
+    }
+}

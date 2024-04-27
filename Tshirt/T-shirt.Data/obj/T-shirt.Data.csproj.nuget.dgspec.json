@@ -83,6 +83,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.18, )"
+            },
+            "Microsoft.NET.Build.Containers": {
+              "target": "Package",
+              "version": "[7.0.408, )"
             }
           },
           "imports": [
@@ -178,6 +182,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.NET.Build.Containers": {
+              "target": "Package",
+              "version": "[7.0.408, )"
+            },
             "runtime.aot.System.Diagnostics.Tools": {
               "target": "Package",
               "version": "[4.3.0, )"
@@ -263,6 +271,10 @@
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.Build.Containers": {
+              "target": "Package",
+              "version": "[7.0.408, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

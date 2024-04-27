@@ -21,6 +21,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="8.0.0" />
+    <PackageReference Include="Microsoft.NET.Build.Containers" Version="7.0.408" />
     <PackageReference Include="runtime.aot.System.Diagnostics.Tools" Version="4.3.0" />
   </ItemGroup>
 

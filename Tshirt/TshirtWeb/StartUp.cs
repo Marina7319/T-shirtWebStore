@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using T_shirt.Data.Data;
 using T_shirt.Data.Repository;
 using T_shirt.Data.Repository.IRepository;
+using T_shirt.Models.Models;
 using T_shirt.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +14,7 @@ builder.Services.AddControllersWithViews();
 
 
 builder.Services.AddDbContext<TshirtStoreDbContext>(options =>
-      options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+      options.UseSqlServer(builder.Configuration.GetConnectionString("ApplicationDbContext")));
 
 //builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<TshirtStoreDbContext>()
 //.AddDefaultTokenProviders();
@@ -29,6 +30,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 })
     .AddEntityFrameworkStores<TshirtStoreDbContext>()
    .AddDefaultTokenProviders();
+
 
 
 builder.Services.ConfigureApplicationCookie(options =>
@@ -69,14 +71,19 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 var app = builder.Build();
 
+//using (var scope = app.Services.CreateScope())
+//{
+   // var db = scope.ServiceProvider.GetRequiredService<TshirtStoreDbContext>();
+  //  db.Database.Migrate();
+//}
 
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-   // app.UseExceptionHandler("/error");
-    app.UseHsts();
-}
 
+    if (!app.Environment.IsDevelopment())
+    {
+        app.UseExceptionHandler("/Home/Error");
+        // app.UseExceptionHandler("/error");
+        app.UseHsts();
+    }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

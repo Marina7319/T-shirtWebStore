@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\TshirtWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TshirtWeb.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\error.html",
+      "PackagePath": "staticwebassets\\error.html"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\0ece7dda-e7d7-401f-947f-bf78d3c614f4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\0ece7dda-e7d7-401f-947f-bf78d3c614f4.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\12599914-e97f-42c6-b021-0e43f5fbfa1f.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\12599914-e97f-42c6-b021-0e43f5fbfa1f.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\1d888151-f230-499d-9f56-b5671eb3724f.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\1d888151-f230-499d-9f56-b5671eb3724f.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\299e25bd-a787-4ea2-9615-c8657e47a006.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\299e25bd-a787-4ea2-9615-c8657e47a006.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\30064728-9939-440d-a1d3-b85f1a3cf7d8.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\30064728-9939-440d-a1d3-b85f1a3cf7d8.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\34d30c13-a3c2-4dc0-866a-cb78fc4f6937.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\34d30c13-a3c2-4dc0-866a-cb78fc4f6937.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\4f253ae1-2c0b-4889-8f17-a6f5c124738a.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\4f253ae1-2c0b-4889-8f17-a6f5c124738a.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\936c2b22-a6f3-4e8e-ae3d-880749f2fd97.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\936c2b22-a6f3-4e8e-ae3d-880749f2fd97.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\a9ba1a18-0153-4095-92f8-d5b630b99b4e.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\a9ba1a18-0153-4095-92f8-d5b630b99b4e.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\b5d21ebe-ad2f-408a-8ba0-3f07c9e3fffe.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\b5d21ebe-ad2f-408a-8ba0-3f07c9e3fffe.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\ce6e8a04-d30c-4bed-a75d-2dda407ef274.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\ce6e8a04-d30c-4bed-a75d-2dda407ef274.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\dac4fa49-5596-4274-9c01-55825938a38f.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\dac4fa49-5596-4274-9c01-55825938a38f.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\e9e581d0-3558-47fb-9ff5-c3bcbdb38311.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\e9e581d0-3558-47fb-9ff5-c3bcbdb38311.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\images\\product\\f6a7cef7-abea-46d7-a5a5-34a9277975a3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\f6a7cef7-abea-46d7-a5a5-34a9277975a3.jpg"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\TshirtWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.TshirtWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.TshirtWeb.props",
+      "PackagePath": "build\\TshirtWeb.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TshirtWeb.props",
+      "PackagePath": "buildMultiTargeting\\TshirtWeb.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.TshirtWeb.props",
+      "PackagePath": "buildTransitive\\TshirtWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

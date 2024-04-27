@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "26N3NcJcFcZXeECAYzbxtfuGrUMShCnwI1aMHP73ZZXZ0uj8+uTZw3vSF63q3RBOhZR7aTirOCdZz6TXXKihUw==",
+  "dgSpecHash": "s317dqct+0AmDmDlSJvHvFLRebueM0qrD/9zry0YBLg8/GCtwQTr0pOTiGMG21SzuZVuelFjcrMISjbkeH2Ugw==",
   "success": true,
   "projectFilePath": "D:\\C#WEB\\ASP.NETAdvancedJune2023\\T-ShirtWeb\\T-shirtWebStore\\Tshirt\\T-shirt.Utility\\T-shirtStore.Utility.csproj",
   "expectedPackageFiles": [
@@ -109,6 +109,7 @@
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.35.0\\microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.35.0\\microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.35.0\\microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
+    "C:\\Users\\Marina\\.nuget\\packages\\microsoft.net.build.containers\\7.0.408\\microsoft.net.build.containers.7.0.408.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.net.stringtools\\17.3.2\\microsoft.net.stringtools.17.3.2.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Marina\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
